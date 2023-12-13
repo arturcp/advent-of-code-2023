@@ -11,7 +11,7 @@ defmodule AdventOfCode2023.Day1.Part1 do
   defp get_digits(line) do
     String.graphemes(line)
     |> Enum.filter(fn letter ->
-        letter in ["0","1","2","3","4","5","6","7","8","9"]
+      letter in ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
     end)
   end
 
