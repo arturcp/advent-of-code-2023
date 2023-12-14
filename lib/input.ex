@@ -1,4 +1,5 @@
 defmodule AdventOfCode2023.Input do
+  def read_input(day, input \\ nil)
   def read_input(_day, input) when not is_nil(input) do
     input
     |> String.split("\n", trim: true)
